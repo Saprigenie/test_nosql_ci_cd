@@ -116,7 +116,7 @@ jobs:
 
             echo ${ports}
           
-            external_ports=`echo $ports | grep '127.0.0.1' | cut -d: -f2`
+            external_ports=`echo $ports | grep -o ':[0-9]\+:' | tr -d ':'`
             echo ${external_ports}
             for port in $external_ports;
             do 
