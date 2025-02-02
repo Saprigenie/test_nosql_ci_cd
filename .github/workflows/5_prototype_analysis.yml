@@ -112,7 +112,7 @@ jobs:
               fi
             fi            
           
-            external_ports=`echo $ports | grep '127.0.0.1' | sed 's/^[^1]*127.0.0.1:\([^:]*\):[^:]*$/\1/g'`
+            external_ports=`echo $ports | grep -Po '(?<=127.0.0.1:)[0-9]+'`
             for port in $external_ports;
             do 
               if [[ "$port" < 1025 ]];
