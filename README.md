@@ -16,3 +16,20 @@
 <a href=" ./../../../actions/workflows/6_report.yml" >![6. Пояснительная записка]( ./../../actions/workflows/6_report.yml/badge.svg)</a>
 
 <a href=" ./../../../actions/workflows/7_app_is_ready.yml" >![7. App is ready]( ./../../actions/workflows/7_app_is_ready.yml/badge.svg)</a>
+
+## Запуск приложения (локально)
+
+1. Развернуть docker (файл docker-compose.yml)
+2. Перейти на страницу http://localhost:8080
+
+## Данные пользователя для входа
+
+### Администатор
+Phone number: +7(999)999-9999
+
+Password: 1
+
+### Клиент
+Phone number: +7(999)888-8888
+
+Password: 1
