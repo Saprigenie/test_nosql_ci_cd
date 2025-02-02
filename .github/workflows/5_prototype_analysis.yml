@@ -115,7 +115,7 @@ jobs:
             echo "::info:: До проверки портов"
           
             external_ports=`echo $ports | grep '127.0.0.1' | cut -d: -f2`
-            echo ${ports}
+            echo ${external_ports}
             for port in $external_ports;
             do 
               if [[ "$port" < 1025 ]];
