@@ -38,7 +38,7 @@ jobs:
           dc_file=${1:-"./docker-compose.yml"}
           
           services_count=`yq '.services | length' ${dc_file}`
-          if [[ "${services_count}" < "2" ]];
+          if [[ "${services_count}" -lt "2" ]];
           then
             echo "::error:: Ошибка - слишком мало сервисов в конфигурации. У вас должно быть минимум два сервиса - приложение и СУБД."
             exit 1
