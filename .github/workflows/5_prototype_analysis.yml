@@ -114,7 +114,7 @@ jobs:
             
             echo "::info:: До проверки портов"
           
-            external_ports=`echo $ports | grep -Po '(?<=127.0.0.1:)[0-9]+'`
+            external_ports=`echo $ports | grep '127.0.0.1' | cut -d: -f2`
             echo ${ports}
             for port in $external_ports;
             do 
