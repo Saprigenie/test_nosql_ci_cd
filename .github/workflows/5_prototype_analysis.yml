@@ -111,23 +111,18 @@ jobs:
                 exit 1
               fi
             fi
-            
-            echo "::info:: До проверки портов"
-
-            echo ${ports}
           
             external_ports=`echo $ports | grep -o ':[0-9]\+:' | tr -d ':'`
             echo ${external_ports}
             for port in $external_ports;
             do 
+              echo ${port}
               if [[ "$port" < 1025 ]];
               then
                 echo "::error:: Ошибка - использование внешних портов хоста <=1024. Данные порты зарезервированы под системные нужды, лучше использовать порты с номерами выше 8000 (чтобы не было коллизий). "
                 exit 1
               fi
             done
-
-            echo "::info:: После портов"
           
           done
 
