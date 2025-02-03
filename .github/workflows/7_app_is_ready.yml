@@ -56,13 +56,13 @@ jobs:
               if [[ `curl -s -o /dev/null -w "%{http_code}" "127.0.0.1:${ext_port}"` -eq  200 ]];
               then
                 echo "Here 6"
-                (( success_codes ++ ))
+                success_codes=$((success_codes+1))
                 echo "Here 7"
               fi
             done
           done
           echo "Here 8"
-          if [[ success_codes -eq 0 ]];
+          if [[ ${success_codes} -eq 0 ]];
           then
             echo "::error:: Ошибка - обращение к корню (\) запущенного web-клиента вернуло ошибку."
             exit 1
