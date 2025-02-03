@@ -43,4 +43,4 @@ FROM scratch
 
 COPY --from=builder /bin/app /bin/app
 USER 1000
-CMD ["/bin/app"]
+# CMD ["/bin/app"]
