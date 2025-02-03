@@ -37,7 +37,8 @@ jobs:
               exit 1
           fi
       
-          # Проверка всех сервисов на общие ошибки
+          # Проход по всем сервисам.
+          services_count=`yq '.services | length' ${dc_file}`
           for i in $(seq 0 $(( services_count - 1 )) );
           do
             service=`yq '.services | keys ['$i']' ${dc_file}`
