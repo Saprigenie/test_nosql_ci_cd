@@ -1,0 +1,464 @@
+[
+  {
+    "relationshipType": "INVENTORY_USED",
+    "startNode": {
+      "createdAt": "2025-01-01T09:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "name": "Пожарная машина 1",
+      "label": "Inventory"
+    }
+  },
+  {
+    "relationshipType": "INVENTORY_USED",
+    "startNode": {
+      "createdAt": "2025-02-01T09:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "name": "Пожарная машина 2",
+      "label": "Inventory"
+    }
+  },
+  {
+    "relationshipType": "INVENTORY_USED",
+    "startNode": {
+      "createdAt": "2025-02-02T09:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "name": "Пожарная машина 3",
+      "label": "Inventory"
+    }
+  },
+  {
+    "relationshipType": "INVENTORY_USED",
+    "startNode": {
+      "createdAt": "2025-02-05T09:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "name": "Пожарная машина 4",
+      "label": "Inventory"
+    }
+  },
+  {
+    "relationshipType": "INVENTORY_USED",
+    "startNode": {
+      "createdAt": "2025-02-20T15:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "name": "Пожарная машина 5",
+      "label": "Inventory"
+    }
+  },
+  {
+    "relationshipType": "INVENTORY_USED",
+    "startNode": {
+      "createdAt": "2025-01-05T14:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "name": "Пожарная машина 6",
+      "label": "Inventory"
+    }
+  },
+  {
+    "relationshipType": "INVENTORY_USED",
+    "startNode": {
+      "createdAt": "2025-01-13T16:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "name": "Пожарная машина 7",
+      "label": "Inventory"
+    }
+  },
+  {
+    "relationshipType": "INVENTORY_USED",
+    "startNode": {
+      "createdAt": "2025-02-04T10:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "name": "Пожарная машина 8",
+      "label": "Inventory"
+    }
+  },
+  {
+    "relationshipType": "INVENTORY_USED",
+    "startNode": {
+      "createdAt": "2025-02-07T12:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "name": "Пожарная машина 9",
+      "label": "Inventory"
+    }
+  },
+  {
+    "relationshipType": "ON_CALL",
+    "startNode": {
+      "modifiedAt": "2025-03-01T12:00:00Z",
+      "label": "Report"
+    },
+    "endNode": {
+      "createdAt": "2025-01-01T09:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "ON_CALL",
+    "startNode": {
+      "modifiedAt": "2025-03-20T17:30:00Z",
+      "label": "Report"
+    },
+    "endNode": {
+      "createdAt": "2025-02-01T09:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "ON_CALL",
+    "startNode": {
+      "modifiedAt": "2025-03-22T14:15:00Z",
+      "label": "Report"
+    },
+    "endNode": {
+      "createdAt": "2025-02-02T09:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "ON_CALL",
+    "startNode": {
+      "modifiedAt": "2025-03-30T10:50:00Z",
+      "label": "Report"
+    },
+    "endNode": {
+      "createdAt": "2025-02-05T09:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "ON_CALL",
+    "startNode": {
+      "modifiedAt": "2025-02-25T10:00:00Z",
+      "label": "Report"
+    },
+    "endNode": {
+      "createdAt": "2025-01-13T16:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "ON_CALL",
+    "startNode": {
+      "modifiedAt": "2025-03-04T10:30:00Z",
+      "label": "Report"
+    },
+    "endNode": {
+      "createdAt": "2025-02-04T10:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "ON_CALL",
+    "startNode": {
+      "modifiedAt": "2025-03-03T10:20:00Z",
+      "label": "Report"
+    },
+    "endNode": {
+      "createdAt": "2025-02-07T12:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "DAMAGED",
+    "startNode": {
+      "modifiedAt": "2025-03-01T12:00:00Z",
+      "label": "Report"
+    },
+    "endNode": {
+      "name": "Пожарная машина 1",
+      "label": "Inventory"
+    }
+  },
+  {
+    "relationshipType": "CREATED",
+    "startNode": {
+      "login": "operator_dmitriy",
+      "label": "User"
+    },
+    "endNode": {
+      "createdAt": "2025-01-01T09:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "CREATED",
+    "startNode": {
+      "login": "operator_vladimir",
+      "label": "User"
+    },
+    "endNode": {
+      "createdAt": "2025-02-01T09:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "CREATED",
+    "startNode": {
+      "login": "operator_dmitriy",
+      "label": "User"
+    },
+    "endNode": {
+      "createdAt": "2025-02-02T09:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "CREATED",
+    "startNode": {
+      "login": "operator_vladimir",
+      "label": "User"
+    },
+    "endNode": {
+      "createdAt": "2025-02-05T09:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "CREATED",
+    "startNode": {
+      "login": "operator_dmitriy",
+      "label": "User"
+    },
+    "endNode": {
+      "createdAt": "2025-02-20T15:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "CREATED",
+    "startNode": {
+      "login": "operator_dmitriy",
+      "label": "User"
+    },
+    "endNode": {
+      "createdAt": "2025-01-05T14:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "CREATED",
+    "startNode": {
+      "login": "operator_dmitriy",
+      "label": "User"
+    },
+    "endNode": {
+      "createdAt": "2025-01-13T16:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "CREATED",
+    "startNode": {
+      "login": "operator_vladimir",
+      "label": "User"
+    },
+    "endNode": {
+      "createdAt": "2025-02-04T10:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "CREATED",
+    "startNode": {
+      "login": "operator_vladimir",
+      "label": "User"
+    },
+    "endNode": {
+      "createdAt": "2025-02-07T12:00:00Z",
+      "label": "CallForm"
+    }
+  },
+  {
+    "relationshipType": "CREATED_BY",
+    "startNode": {
+      "createdAt": "2025-01-01T09:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "login": "operator_dmitriy",
+      "label": "User"
+    }
+  },
+  {
+    "relationshipType": "CREATED_BY",
+    "startNode": {
+      "createdAt": "2025-02-01T09:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "login": "operator_vladimir",
+      "label": "User"
+    }
+  },
+  {
+    "relationshipType": "CREATED_BY",
+    "startNode": {
+      "createdAt": "2025-02-02T09:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "login": "operator_dmitriy",
+      "label": "User"
+    }
+  },
+  {
+    "relationshipType": "CREATED_BY",
+    "startNode": {
+      "createdAt": "2025-02-05T09:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "login": "operator_vladimir",
+      "label": "User"
+    }
+  },
+  {
+    "relationshipType": "CREATED_BY",
+    "startNode": {
+      "createdAt": "2025-02-20T15:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "login": "operator_dmitriy",
+      "label": "User"
+    }
+  },
+  {
+    "relationshipType": "CREATED_BY",
+    "startNode": {
+      "createdAt": "2025-01-05T14:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "login": "operator_dmitriy",
+      "label": "User"
+    }
+  },
+  {
+    "relationshipType": "CREATED_BY",
+    "startNode": {
+      "createdAt": "2025-01-13T16:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "login": "operator_dmitriy",
+      "label": "User"
+    }
+  },
+  {
+    "relationshipType": "CREATED_BY",
+    "startNode": {
+      "createdAt": "2025-02-04T10:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "login": "operator_vladimir",
+      "label": "User"
+    }
+  },
+  {
+    "relationshipType": "CREATED_BY",
+    "startNode": {
+      "createdAt": "2025-02-07T12:00:00Z",
+      "label": "CallForm"
+    },
+    "endNode": {
+      "login": "operator_vladimir",
+      "label": "User"
+    }
+  },
+  {
+    "relationshipType": "FILLED_IN",
+    "startNode": {
+      "login": "brigadier_oleg",
+      "label": "Brigadier"
+    },
+    "endNode": {
+      "modifiedAt": "2025-03-01T12:00:00Z",
+      "label": "Report"
+    }
+  },
+  {
+    "relationshipType": "FILLED_IN",
+    "startNode": {
+      "login": "brigadier_igor",
+      "label": "Brigadier"
+    },
+    "endNode": {
+      "modifiedAt": "2025-03-20T17:30:00Z",
+      "label": "Report"
+    }
+  },
+  {
+    "relationshipType": "FILLED_IN",
+    "startNode": {
+      "login": "brigadier_igor",
+      "label": "Brigadier"
+    },
+    "endNode": {
+      "modifiedAt": "2025-03-22T14:15:00Z",
+      "label": "Report"
+    }
+  },
+  {
+    "relationshipType": "FILLED_IN",
+    "startNode": {
+      "login": "brigadier_oleg",
+      "label": "Brigadier"
+    },
+    "endNode": {
+      "modifiedAt": "2025-03-30T10:50:00Z",
+      "label": "Report"
+    }
+  },
+  {
+    "relationshipType": "FILLED_IN",
+    "startNode": {
+      "login": "brigadier_igor",
+      "label": "Brigadier"
+    },
+    "endNode": {
+      "modifiedAt": "2025-02-25T10:00:00Z",
+      "label": "Report"
+    }
+  },
+  {
+    "relationshipType": "FILLED_IN",
+    "startNode": {
+      "login": "brigadier_igor",
+      "label": "Brigadier"
+    },
+    "endNode": {
+      "modifiedAt": "2025-03-04T10:30:00Z",
+      "label": "Report"
+    }
+  },
+  {
+    "relationshipType": "FILLED_IN",
+    "startNode": {
+      "login": "brigadier_oleg",
+      "label": "Brigadier"
+    },
+    "endNode": {
+      "modifiedAt": "2025-03-03T10:20:00Z",
+      "label": "Report"
+    }
+  }
+]
