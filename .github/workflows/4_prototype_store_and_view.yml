@@ -16,13 +16,13 @@ jobs:
           fetch-depth: 0
 
       - name: Check docker-compose.yml
-        run: bash .github/workflows/scripts/4_prototype_store_and_view.sh check-compose
+        run: .github/workflows/scripts/4_prototype_store_and_view.sh check-compose
 
       - name: Build docker-compose
-        run: bash .github/workflows/scripts/4_prototype_store_and_view.sh build
+        run: .github/workflows/scripts/4_prototype_store_and_view.sh build
 
       - name: Run docker-compose
-        run: bash .github/workflows/scripts/4_prototype_store_and_view.sh run
+        run: .github/workflows/scripts/4_prototype_store_and_view.sh run
 
       - name: check
-        run: bash .github/workflows/scripts/4_prototype_store_and_view.sh check-tag
+        run: .github/workflows/scripts/4_prototype_store_and_view.sh check-tag

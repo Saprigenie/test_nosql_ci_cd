@@ -14,4 +14,4 @@ jobs:
         name: Check out current commit
 
       - name: check
-        run: bash .github/workflows/scripts/6_report.sh
+        run: .github/workflows/scripts/6_report.sh

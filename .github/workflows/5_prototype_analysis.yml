@@ -16,7 +16,7 @@ jobs:
           fetch-depth: 0
 
       - name: There are at least one Dockerfile
-        run: bash .github/workflows/scripts/5_prototype_analysis.sh check-dockerfiles
+        run: .github/workflows/scripts/5_prototype_analysis.sh check-dockerfiles
 
       - name: Lint Dockerfile
         uses: hadolint/hadolint-action@v3.1.0
@@ -27,16 +27,16 @@ jobs:
           override-error: DL3006, DL3000, DL3007, DL3008, DL3009, DL3013, DL3016, DL3018, DL3020, DL3028, DL3037, DL3047, DL4001, DL4003, DL4004
 
       - name: Check docker-compose.yml
-        run: bash .github/workflows/scripts/5_prototype_analysis.sh check-compose
+        run: .github/workflows/scripts/5_prototype_analysis.sh check-compose
 
       - name: Build docker-compose
-        run: bash .github/workflows/scripts/5_prototype_analysis.sh build
+        run: .github/workflows/scripts/5_prototype_analysis.sh build
 
       - name: Run docker-compose
-        run: bash .github/workflows/scripts/5_prototype_analysis.sh run
+        run: .github/workflows/scripts/5_prototype_analysis.sh run
 
       - name: Check containers are alive
-        run: bash .github/workflows/scripts/5_prototype_analysis.sh check-containers
+        run: .github/workflows/scripts/5_prototype_analysis.sh check-containers
 
       - name: check_tag
-        run: bash .github/workflows/scripts/5_prototype_analysis.sh check-tag
+        run: .github/workflows/scripts/5_prototype_analysis.sh check-tag

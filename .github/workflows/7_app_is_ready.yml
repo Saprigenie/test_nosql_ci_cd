@@ -16,13 +16,13 @@ jobs:
           fetch-depth: 0
 
       - name: Build docker-compose
-        run: bash .github/workflows/scripts/7_app_is_ready.sh build
+        run: .github/workflows/scripts/7_app_is_ready.sh build
 
       - name: Run docker-compose
-        run: bash .github/workflows/scripts/7_app_is_ready.sh run
+        run: .github/workflows/scripts/7_app_is_ready.sh run
 
       - name: Check web client root page
-        run: bash .github/workflows/scripts/7_app_is_ready.sh check-web
+        run: .github/workflows/scripts/7_app_is_ready.sh check-web
 
       - name: check
-        run: bash .github/workflows/scripts/7_app_is_ready.sh check-tag
+        run: .github/workflows/scripts/7_app_is_ready.sh check-tag
