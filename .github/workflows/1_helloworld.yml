@@ -8,11 +8,11 @@ on:
 jobs:
   check_hello_world_dir_not_empty:
     name: "Проверка наличия каталога ./hello_world/"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         name: Check out current commit
-    
+
       - name: check
         run: |
           dir="./hello_world/"

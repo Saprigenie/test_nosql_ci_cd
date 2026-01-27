@@ -8,14 +8,14 @@ on:
 jobs:
   check_reports:
     name: "Проверка наличия пояснительной записки (report.doc / report.docx / report.odt + report.pdf в корне репо)"
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
         name: Check out current commit
-    
+
       - name: check
         run: |
-          
+
           if ! ( [[ -f "./report.docx" ]] || [[ -f "./report.doc" ]] || [[ -f "./report.odt" ]] )  ; then 
             echo "::error::Предварительная проверка не пройдена - не найдены редактируемые версии пояснительной записки"
             exit 1
