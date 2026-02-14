@@ -3,7 +3,7 @@ services:
   js:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfileerror
     environment:
       - MODE
     container_name: js-container
